@@ -3,7 +3,6 @@
 
 let arr = process.argv.slice(2,).map(Number).filter(num => num > 0)
 
-//filter(num => num !== NaN)
 console.log(arr)
 
 
